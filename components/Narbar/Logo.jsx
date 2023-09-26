@@ -2,7 +2,7 @@
 import '@/assets/css/navbar.style.css'
 
 function Logo() {
-  return <div className="logo">Clínica Santa Caridad</div>;
+  return <div className="logo"><img src="/images/logo_clinicaSantaCaridad.png" alt="Logo de la clínica" /></div>;
 }
 
 export default Logo;

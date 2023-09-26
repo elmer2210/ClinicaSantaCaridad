@@ -4,13 +4,19 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #333;
-    color: white;
+    background-color: white;
+    color: rgb(73, 70, 70);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
   }
   
   .logo {
     font-size: 24px;
     font-weight: bold;
+  }
+
+  .logo img {
+    height: 2em;
   }
   
   .nav-menu {
@@ -25,7 +31,6 @@
   
   .nav-menu a {
     text-decoration: none;
-    color: white;
   }
   
   /* Añade más estilos según tus preferencias */

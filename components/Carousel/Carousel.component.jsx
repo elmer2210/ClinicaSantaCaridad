@@ -2,7 +2,7 @@
 import React, {Component} from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import Image from 'next/image';
+import '@/assets/css/carousel.style.css'
 
 function CarouselComponent() {
 
@@ -13,7 +13,7 @@ function CarouselComponent() {
         'usman-yousaf-pTrhfmj2jDA-unsplash.jpg'
     ];
         return (
-            <Carousel>
+            <Carousel autoPlay dynamicHeight infiniteLoop showThumbs={false}>
                 {imagesFiles.map((filename, index) => (
                     <div key={index}>
                         <img src={`/images/${filename}`} alt={`Imagen ${index + 1}`} />
