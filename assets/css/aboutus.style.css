@@ -1,0 +1,35 @@
+.aboutUs{
+    padding: 1.5rem 1.5rem 0 1.5rem;
+    margin: 1.5rem 0;
+    background-color: var(--background-seccion-color);
+}
+
+.aboutUs .aboutUs_title{
+    font-family: var(--font-family-text);
+    color: var( --font-color-white);
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.aboutUs .aboutUs_content{
+    display: flex;
+    width: 100%;
+    margin: 2rem;
+}
+
+.aboutUs .aboutUs_content .aboutUs_content--image{
+    width: 20%;
+}
+
+.aboutUs .aboutUs_content .aboutUs_content--content{
+    width: 80%;
+    padding:0 2rem;
+    display: flex;
+}
+
+.aboutUs .aboutUs_content .aboutUs_content--content .container{
+    width: 50%;
+    padding: .5rem;
+    font-family: var(--font-family-text);
+}

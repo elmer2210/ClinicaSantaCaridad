@@ -1,0 +1,15 @@
+:root {
+    --font-family-text: "Roboto", sans-serif;
+    --font-color: #0D0D0D;
+    --font-color-white: #fafafa;
+
+    --background-seccion-color: #126da698;
+
+    /*Paleta de colores de la clínica*/
+    --color-white: #fafafa;
+    --color-black: #0D0D0D;
+    --color-primary: #1B65A6;
+    --color-secondary: #126DA6;
+    --color-terceary: #1AA3D9;
+    --color-four: #2ECEF2;
+}
