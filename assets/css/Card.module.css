@@ -1,0 +1,45 @@
+/* styles/Card.module.css */
+
+.card {
+    width: 18.75rem;
+    border: 1px solid #ccc;
+    border-radius: .313rem;
+    box-shadow: 0 .25rem .5rem rgba(0, 0, 0, 0.1);
+    margin: 1.25rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    font-family: var(--font-family-text);
+    text-align: left;
+  }
+  
+  .cardImage {
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+  }
+  
+  .cardInfo {
+    padding: 1.25rem;
+    width: 12.5rem;
+  }
+  
+  .cardInfo h2 {
+    color: var(--color-primary);
+    font-size: 1.125rem;
+    font-weight: 500;
+    margin-bottom: .625rem;
+  }
+  
+  .cardInfo p {
+    font-size: .875rem;
+    color: #666;
+    margin-bottom: 1.25rem;
+  }
+  
+  .cardInfo a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  

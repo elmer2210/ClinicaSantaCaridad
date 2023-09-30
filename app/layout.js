@@ -10,9 +10,9 @@ export default function RootLayout({ children }) {
     <html lang="es">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true"/>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet"/>
-        <link rel='shortcut icon' href='/images/icon.ico' />
+        <link rel='icon' href='/faicon.ico' />
       </head>
       <body>{children}</body>
     </html>

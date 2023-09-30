@@ -2,5 +2,14 @@
 @import url(__variables.css);
 
 body {
-    background-color: #fafafa;
+    /*<a href="https://www.freepik.es/foto-gratis/doctora-bata-blanca-hospital_9246731.htm#query=doctores&position=11&from_view=search&track=sph">Imagen de prostooleh</a> en Freepik*/
+
+    background-image: url('/images/doctora-bata-blanca-hospital.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+
   }
