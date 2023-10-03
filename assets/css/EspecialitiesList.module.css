@@ -1,7 +1,7 @@
 /* styles/Card.module.css */
 
 .card {
-    width: 18.75rem;
+    width: 16.4rem;
     border: 1px solid #ccc;
     border-radius: .313rem;
     box-shadow: 0 .25rem .5rem rgba(0, 0, 0, 0.1);
@@ -16,6 +16,7 @@
   .cardImage {
     width: 5rem;
     height: 5rem;
+    padding-left: .5rem;
     object-fit: cover;
   }
   

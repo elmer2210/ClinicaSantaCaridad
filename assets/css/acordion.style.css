@@ -9,7 +9,14 @@
     border-top-right-radius: 1rem;
     border-bottom-right-radius: 1rem;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden; /* Esto asegura que el contenido se oculte correctamente */
+    max-height: 31.25rem;
+    transition: max-height 1s ease; /* Agrega una transición animada */
   }
+
+  .accordion .open {
+  max-height: 312rem; /* Establece la altura máxima que puede tener el contenido abierto */
+}
   
   .accordion-header {
     display: flex;
@@ -29,6 +36,14 @@
   
   .accordion-content {
     padding: 10px;
-    background-color: #fff;
+    color: var(--color-black);
+  }
+
+  .arrow {
+    transition: transform 0.3s ease;
+  }
+  
+  .open .arrow {
+    transform: rotate(180deg);
   }
   

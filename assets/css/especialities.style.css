@@ -1,16 +1,17 @@
 .especialities {
-    padding: 1.5rem;
+    padding: 19rem 4rem 4rem 4rem;
     text-align: center;
     background-color: var(--color-white);
+    margin-top: -15rem;
 }
 
 .especialities .especialities_title{
-    
     font-family: var(--font-family-text);
     color: var( --color-primary);
     font-size: 2rem;
     font-weight: 500;
     text-transform: uppercase;
+    padding-bottom: 3rem;
 }
 
 .especialities .especialities_card{

@@ -13,7 +13,11 @@ const AboutUsComponent = () => {
                     </div>
                     <div className="aboutUs_content--content">
                         <div className="containerContent">
-                            Texto sobre quines somos
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut justo nec sem sodales fermentum. 
+                                Vestibulum at nunc vitae massa aliquet consequat a sit amet ante. Duis et quam vel nisl commodo cursus. 
+                                Sed auctor, arcu a dictum fermentum, elit magna consectetur lacus, id rhoncus libero nisi nec urna.
+                            </p>
                         </div>
                         <div  className="containerContent">
                             <AccordionComponent title={'Mision'} content={'Lorem Ipsup'}/>

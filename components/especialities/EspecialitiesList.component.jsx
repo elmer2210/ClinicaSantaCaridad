@@ -1,4 +1,4 @@
-import styles from '@/assets/css/Card.module.css';
+import styles from '@/assets/css/EspecialitiesList.module.css';
 import {FaHandHoldingMedical} from 'react-icons/fa'
 
 const EspecialitiesListComponent = ({image, title, description, link}) => {

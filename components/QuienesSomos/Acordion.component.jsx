@@ -11,10 +11,10 @@ const AccordionComponent = ({ title, content }) => {
   };
 
   return (
-    <div className="accordion">
+    <div className={`accordion ${isOpen ? 'open' : ''}`}>
       <div className="accordion-header" onClick={toggleAccordion}>
         <h3>{title}</h3>
-        <span>{isOpen ? '▲' : '▼'}</span>
+         <span className={`arrow ${isOpen ? 'open' : ''}`}>&#9660;</span>
       </div>
       {isOpen && <div className="accordion-content">{content}</div>}
     </div>

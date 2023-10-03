@@ -1,0 +1,28 @@
+/* styles/Navbar.module.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    color: rgb(73, 70, 70);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    transition: background-color 0.5s ease;
+  }
+
+  /* Estilos para el navbar fijo */
+.fixed {
+  position: fixed;
+  background-color: white;
+  top: -60px;
+  width: 97%;
+  z-index: 1000;
+  transform: translateY(60px); /* Compensación de la posición inicial */
+  transition: transform 0.5s ease; /* Transición solo para la transformación */
+}
+
+.fixed.visible {
+    transform: translateY(0); /* Muestra el navbar cuando está fijo */
+  }
+ 

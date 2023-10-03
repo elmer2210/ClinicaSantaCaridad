@@ -1,0 +1,14 @@
+.services_section{
+    background-color: var(--background-seccion-color);
+    padding: 2.5rem 0;
+}
+
+.services_section .title{
+    font-family: var(--font-family-text);
+    color: var( --font-color-white);
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 1.5rem;
+    text-align: center;
+}
