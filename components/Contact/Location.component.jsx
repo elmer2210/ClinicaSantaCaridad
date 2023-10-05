@@ -12,7 +12,7 @@ const LocationComponent = () => {
         </iframe>
       </div>
       <div className="address">
-        <h2>Dirección del Negocio</h2>
+        <h2>Dirección</h2>
         <p>123 Calle Principal, Ciudad, País, Código Postal</p>
       </div>
     </section>

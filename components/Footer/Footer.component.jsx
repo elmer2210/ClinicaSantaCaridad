@@ -1,5 +1,6 @@
-import '@/assets/css/footer.style.css'
-import {BsFacebook, BsInstagram} from 'react-icons/bs'
+import '@/assets/css/footer.style.css';
+import {BsFacebook, BsInstagram, BsPinMapFill} from 'react-icons/bs';
+import {AiTwotonePhone, AiTwotoneMail} from 'react-icons/ai'
 
 function FooterComponent() {
     return (
@@ -9,12 +10,19 @@ function FooterComponent() {
                     <div className="footer-logo">
                         <img src="/logo_clinicaSantaCaridad.png" alt="Logo de la empresa" />
                     </div>
-                    <div className="footer-contact">
-                        <p>Teléfono: (123) 456-7890</p>
-                        <p>Email: info@example.com</p>
+                    <div className="footer-info">
+                        <div className="footer-contact">
+                            <h4>Contactanos</h4>
+                            <p> <AiTwotonePhone/> (123) 456-7890</p>
+                            <p> <AiTwotoneMail/> info@example.com</p>
+                        </div>
+                        <div className="footer-contact">
+                            <h4>Ubicanos <BsPinMapFill/></h4>
+                            <p>Mitad del Mundo</p>
+                            <p>Calle Daniel Cevallos</p>
+                        </div>
                     </div>
                 </div>
-                <hr />
                 <div className='footer-socialmedia'>
                     <p>&copy; 2023 Clínica La Caridad. Todos los derechos reservados.</p>
                     <div className='footer-links'>

@@ -13,13 +13,20 @@ function CarouselComponent() {
         'usman-yousaf-pTrhfmj2jDA-unsplash.jpg'
     ];
         return (
-            <Carousel autoPlay dynamicHeight infiniteLoop showThumbs={false}>
-                {imagesFiles.map((filename, index) => (
-                    <div key={index}>
-                        <img src={`/images/${filename}`} alt={`Imagen ${index + 1}`} />
-                    </div>
-                ))}
-            </Carousel>
+                <Carousel 
+                    autoPlay 
+                    dynamicHeight 
+                    infiniteLoop 
+                    showIndicators={false} 
+                    showThumbs={false}
+                >
+                    {imagesFiles.map((filename, index) => (
+                        <div key={index}>
+                            <img src={`/images/${filename}`} alt={`Imagen ${index + 1}`} />
+                        </div>
+                    ))}
+                </Carousel>
+
         );
 }
 

@@ -1,8 +1,7 @@
 .especialities {
-    padding: 19rem 4rem 4rem 4rem;
+    padding: 4rem 4rem;
     text-align: center;
     background-color: var(--color-white);
-    margin-top: -15rem;
 }
 
 .especialities .especialities_title{

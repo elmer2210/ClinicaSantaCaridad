@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 1rem;
     background-color: white;
     color: rgb(73, 70, 70);
     font-family: 'Roboto', sans-serif;
@@ -16,7 +16,7 @@
   position: fixed;
   background-color: white;
   top: -60px;
-  width: 97%;
+  width: 98%;
   z-index: 1000;
   transform: translateY(60px); /* Compensación de la posición inicial */
   transition: transform 0.5s ease; /* Transición solo para la transformación */

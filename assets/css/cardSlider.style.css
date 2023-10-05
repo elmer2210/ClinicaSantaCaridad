@@ -67,4 +67,9 @@
   padding: .5rem;
   margin: .75rem;
   color: #25D366;
+  transition: .5s;
+}
+
+.cardSlider a:hover{
+  color: #1c8141;
 }
