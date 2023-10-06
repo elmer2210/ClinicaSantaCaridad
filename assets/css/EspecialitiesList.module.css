@@ -11,6 +11,11 @@
     align-items: center;
     font-family: var(--font-family-text);
     text-align: left;
+    transition: 0.5s;
+  }
+
+  .card:hover {
+    transform: scale(1.2);
   }
   
   .cardImage {

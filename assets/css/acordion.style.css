@@ -6,8 +6,7 @@
     background-color: var( --color-white);
     border: 1px solid var(--color-primary);
     width: 100%;
-    border-top-right-radius: 1rem;
-    border-bottom-right-radius: 1rem;
+    border-radius: 1rem;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
     overflow: hidden; /* Esto asegura que el contenido se oculte correctamente */
     max-height: 31.25rem;

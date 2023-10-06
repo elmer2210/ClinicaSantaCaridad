@@ -3,7 +3,8 @@
     --font-color: #0D0D0D;
     --font-color-white: #fafafa;
 
-    --background-seccion-color: #126da6a8;
+    --background-seccion-color: rgba(255, 255, 255, 0.795);
+    --background-seccion-color-two: #1b65a6b0;
 
     /*Paleta de colores de la clínica*/
     --color-white: #fafafa;

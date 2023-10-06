@@ -72,4 +72,5 @@
 
 .cardSlider a:hover{
   color: #1c8141;
+  transform: scale(5);
 }

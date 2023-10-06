@@ -41,10 +41,17 @@
     padding: .8rem;
     background-color: var(--color-primary);
     font-family: var(--font-family-text);
+    border-radius: 1rem;
     font-size: 1.125rem;
     text-transform: uppercase;
     font-weight: 400;
     color: var(--color-white);
     margin-left: 25%;
     margin-right: 25%;
+    transition: 0.5s;
+}
+
+.header .header_card .header_card--button:hover{
+    background-color: var(--color-secondary);
+    transform: scale(1.2);
 }
