@@ -1,4 +1,5 @@
 // components/Navbar.js
+"use client";
 import Logo from './Logo';
 import NavMenu from './NarMenu';
 import styles from '@/assets/css/Navbar.module.css'

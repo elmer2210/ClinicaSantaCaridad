@@ -25,4 +25,11 @@
 .fixed.visible {
     transform: translateY(0); /* Muestra el navbar cuando está fijo */
   }
+
+  @media screen and (max-width: 1180px) {
+    .fixed{
+      max-width: 97%;
+    }
+  }
+  
  

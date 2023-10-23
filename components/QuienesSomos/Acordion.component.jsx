@@ -1,5 +1,5 @@
 // components/Accordion.js
-
+"use client";
 import React, { useState } from 'react';
 import '@/assets/css/acordion.style.css'
 

@@ -17,3 +17,10 @@ body {
 img{
   width: 100%;
 }
+
+@media screen and (max-width: 1180px) {
+  body{
+    background-color: var(--color-white);
+    background-image: none;
+  }
+}

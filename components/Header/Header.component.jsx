@@ -1,17 +1,16 @@
-import CarouselComponent from "../Carousel/Carousel.component";
-import '@/assets/css/header.style.css'
+import CarouselComponent from "../Carousel/CarouselImage.component";
+import '@/assets/css/header.style.css';
+import { getImages} from "@/services/carousel";
+import CarouselImageComponent from "../Carousel/CarouselImage.component";
 
-const HeaderComponent = () =>{
+
+const HeaderComponent = async() =>{
+    const images = await getImages();
     return(
        <header>
         <div className="header">
             <div className="header_carousel">
-                <CarouselComponent />
-            </div>
-            <div className="header_card">
-                <p className="header_card--black">Agenda tu</p>
-                <p className="header_card--blue">Cita médica</p>
-                <a href="http://" className="header_card--button">Agendar</a>
+                <CarouselImageComponent data={images} />
             </div>
         </div>
        </header>

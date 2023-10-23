@@ -1,3 +1,4 @@
+'use client';
 import React from 'react';
 import Slider from 'react-slick';
 import {IoLogoWhatsapp} from 'react-icons/io'
@@ -9,25 +10,25 @@ const CardSlider = ({ data }) => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 2000,
     autoplay: true,
     autoplaySpeed: 5000,
     slidesToShow: 3,
     slidesToScroll: 1,
     centerMode: true,
-    centerPadding: '60px', // Ajusta este valor según el espacio que desees entre las tarjetas
     responsive: [
       {
         breakpoint: 768,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          arrows:false,
         },
       },
       {
-        breakpoint: 992,
+        breakpoint: 1180,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 2,
           slidesToScroll: 1,
         },
       },
@@ -40,7 +41,7 @@ const CardSlider = ({ data }) => {
         {data.map((item, index) => (
           <div key={index}>
             <div className='cardSlider'>
-              <img src="" alt="" />
+              <img className='cardSlider__img' src="" alt="" />
               <h3>{item.title}</h3>
               <p>{item.description}</p>
               <div>

@@ -1,0 +1,23 @@
+.field{
+    margin: .5rem;
+    font-family: var(--font-family-text);
+}
+
+.field label{
+    font-family: var(--font-family-text);
+    font-size: 18px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 8px;
+
+}
+
+.field input{
+    width: 100%;
+    background-color: var(--color-white);
+    border: none;
+    padding:1rem ;
+    outline-color: #6278F7;
+    font-size: 16px;
+    box-sizing: border-box;
+}

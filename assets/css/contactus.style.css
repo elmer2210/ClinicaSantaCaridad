@@ -1,37 +1,136 @@
+.contactus{
+  background-color: var(--color-white);
+  padding: 3.125rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactus h2{
+    font-family: var(--font-family-text);
+    color: var( --color-primary);
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 2.5rem;
+    text-align: center;
+}
+
 .contact-section {
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    padding: 50px;
+    max-width: 95%;
+    border-radius: 2rem;
+    box-shadow: 5px 5px 10px 7px rgba(0, 0, 0, 0.3);
+    background-image: url(/images/backgroup-desenfocado.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   .contact-form {
     flex: 1;
-    max-width: 400px;
+    background-color: var(--color-white);
+    padding: 1rem;
+    height: auto;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
   }
   
-  .contact-form h2 {
-    margin-bottom: 20px;
+  .contact-form form{
+    margin-top: 2rem;
   }
-  
+
   .form-group {
-    margin-bottom: 20px;
+    display: flex;
+  }
+
+  .form-group div{
+    width: 50%;
+    padding: .5rem;
+  }
+
+  .form-group button{
+    width: 50%;
+    background-color: var(--color-primary);
+    color: var(--font-color-white);
+    font-family: var(--font-family-text);
+    font-size: 1.25rem;
+    border-radius: .75rem;
+    padding: .5rem 0;
+    margin-bottom: 2rem;
   }
   
   textarea {
     width: 100%;
+    margin-bottom: 1rem;
   }
   
   .contact-info {
-    flex: 1;
     text-align: center;
+    min-height: 100%;
+    padding: 2rem;
+    width: 35%;
+  }
+
+  .contact-info h2{
+    font-family: var(--font-family-text);
+    color: var( --color-primary);
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 2.5rem;
+  }
+
+  .contact-info p{
+    font-family: var(--font-family-text);
+    color: var( --color-black);
+    font-size: 1.5rem;
+    font-weight: 400;
   }
   
   .whatsapp-button {
-    padding: 10px 20px;
+    margin-top: 2rem;
+    padding: 1rem;
     background-color: #25d366;
+    border-radius: 1rem;
     color: #fff;
     border: none;
     cursor: pointer;
+    transition: 1s;
   }
+
+  .whatsapp-button:hover{
+    background-color: #20af54;
+  }
+
+  @media screen and (max-width: 1180px) {
+
+    .contactus{
+      padding: 1rem;
+      padding-top: 2rem;
+    }
+
+    .contact-section{
+      flex-direction: column;
+    }
+
+    .form-group{
+      display: inline;
+    }
+
+    .contact-form{
+      width: 100%;
+      padding: 0;
+      border-top-right-radius: 2rem;
+      border-bottom-right-radius: 2rem;
+    }
+
+    .form-group div{
+      width: 90%;
+    }
+  }
+  
   

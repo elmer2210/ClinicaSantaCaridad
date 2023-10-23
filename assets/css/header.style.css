@@ -1,57 +1,11 @@
 .header{
-    background-color: var(--color-white);
-    display: flex;
+    background-color: transparent;
 }
 
 .header .header_carousel{
-    width: 70%;
-    height: 25rem;
+    width: 100%;
 }
 
-.header .header_card{
-    width: 30%;
-    text-align: center;
-    padding: 1.5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-image: url(/images/backgroup-desenfocado.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.header .header_card .header_card--black{
-    font-family: var(--font-family-text);
-    font-size: 2.6rem;
-    font-weight: 700;
-    color: rgb(44, 44, 78);
-    margin-bottom: 1rem;
-}
-
-.header .header_card .header_card--blue{
-    font-family: var(--font-family-text);
-    font-size: 3rem;
-    font-weight: 700;
-    color: var(--color-primary);
-    margin-bottom: 1rem;   
-}
-
-.header .header_card .header_card--button{
-    padding: .8rem;
-    background-color: var(--color-primary);
-    font-family: var(--font-family-text);
-    border-radius: 1rem;
-    font-size: 1.125rem;
-    text-transform: uppercase;
-    font-weight: 400;
-    color: var(--color-white);
-    margin-left: 25%;
-    margin-right: 25%;
-    transition: 0.5s;
-}
-
-.header .header_card .header_card--button:hover{
-    background-color: var(--color-secondary);
-    transform: scale(1.2);
+@media screen and (max-width: 1180px) {
+    
 }

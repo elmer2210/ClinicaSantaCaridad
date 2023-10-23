@@ -1,3 +1,60 @@
-img{
-    height: 25rem;
+.carousel {
+    position: relative;
 }
+
+.carousel_image {
+    height: 40rem;
+    z-index: 1;
+}
+
+.carousel_text {
+    position: absolute;
+    top: 30%;
+    left: 5rem;
+    z-index: 1;
+    max-width: 25rem;
+    transform: translateX(-125%); /* Empieza fuera del área visible del div */
+    transform-origin: left center; /* Punto de transformación en el borde izquierdo */
+    transition: transform 2s ease-in-out; /* Animación de desplazamiento */
+    opacity: 0; 
+}
+
+.carousel_text.animar-texto {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.carousel_text .carousel_text--title {
+    font-family: var(--font-family-text);
+    font-size: 4.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: rgb(2, 2, 71);
+    margin-bottom: .5rem;
+}
+
+.carousel_text .carousel_text--body {
+    font-family: var(--font-family-text);
+    font-size: 1.875rem;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 2rem;
+}
+
+.carousel_text .carousel_text--button {
+    padding: 1rem 2rem;
+    background-color: var(--color-primary);
+    font-family: var(--font-family-text);
+    border-radius: .5rem;
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: var(--color-white);
+    transition: 0.5s;
+}
+
+.carousel_text .carousel_text--button:hover {
+    background-color: var(--color-secondary);
+    transform: scale(1.2);
+}
+

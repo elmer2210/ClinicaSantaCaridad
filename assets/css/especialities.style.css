@@ -17,3 +17,14 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+@media screen and (max-width: 1180px) {
+    .especialities{
+        padding: 1rem;
+    }
+
+    .especialities .especialities_card{
+        justify-content: center;
+    }
+}
+  

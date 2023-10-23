@@ -20,6 +20,11 @@
   .nav-menu a {
     text-decoration: none;
   }
-  
+
+  @media screen and (max-width: 768px) {
+    .nav-menu{
+      display: none;
+    }
+  }
   /* Añade más estilos según tus preferencias */
   

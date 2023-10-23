@@ -1,15 +1,15 @@
 .section_aboutUs{
-    padding: 2.5rem 0;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: var(--background-seccion-color);
+    padding: 4rem;
 }
 
 .aboutUs{
+    margin-top: 2rem;
     padding: 1.5rem 1.5rem 0 1.5rem;
-    background-color: var(--background-seccion-color);
-    width: 75%;
-    border-radius: 2rem;
+    width: 100%;
 }
 
 .aboutUs .aboutUs_title{
@@ -54,3 +54,34 @@
 .containerContent p{
     line-height: 1.5rem;
 }
+
+@media screen and (max-width: 1180px) {
+
+    .section_aboutUs{
+        padding: 1rem;
+        background-color: var(--background-seccion-color-two);
+    }
+
+    .aboutUs_content--image{
+        display: none;
+    }
+
+    .aboutUs{
+        padding: 0;
+    }
+
+    .aboutUs .aboutUs_content .aboutUs_content--content{
+        width: 98%;
+    }
+
+    .aboutUs .aboutUs_title{
+        width: 90%;
+        color: var(--color-white);
+        border-color: var(--color-white);
+    }
+
+    .aboutUs .aboutUs_content .aboutUs_content--content .containerContent{
+        width: 100%;
+    }
+  }
+  
